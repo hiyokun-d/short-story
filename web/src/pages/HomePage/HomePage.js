@@ -18,6 +18,8 @@ const HomePage = () => {
           Create New story
         </Link>
       </div>
+
+      <footer>hiyo</footer>
     </>
   )
 }
