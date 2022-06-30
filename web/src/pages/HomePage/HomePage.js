@@ -8,7 +8,7 @@ const HomePage = () => {
       <MetaTags title="home" />
 
       <div id="homePage">
-        <h1>cerita rakyat</h1>
+        <h1>Temukan Cerita</h1>
         <p>
           <strong>silahkan pilih cerita yang kamu suka:</strong>
         </p>
@@ -17,9 +17,13 @@ const HomePage = () => {
         <Link to={routes.newPost()} className="rw-button-blue rw-button">
           Create New story
         </Link>
+        <br></br>
+        <footer>
+          <p>
+            <strong>hiyo</strong>
+          </p>
+        </footer>
       </div>
-
-      <footer>hiyo</footer>
     </>
   )
 }
