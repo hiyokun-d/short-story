@@ -5742,7 +5742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/graceful-fs@npm:^4.1.2":
+"@types/graceful-fs@npm:^4.1.2, @types/graceful-fs@npm:^4.1.3":
   version: 4.1.5
   resolution: "@types/graceful-fs@npm:4.1.5"
   dependencies:
@@ -7213,6 +7213,7 @@ __metadata:
   dependencies:
     "@redwoodjs/api": 2.0.0
     "@redwoodjs/graphql-server": 2.0.0
+    better-fs: ^11.0.4
   languageName: unknown
   linkType: soft
 
@@ -8122,6 +8123,16 @@ __metadata:
   version: 0.6.1
   resolution: "batch@npm:0.6.1"
   checksum: 925a13897b4db80d4211082fe287bcf96d297af38e26448c857cee3e095c9792e3b8f26b37d268812e7f38a589f694609de8534a018b1937d7dc9f84e6b387c5
+  languageName: node
+  linkType: hard
+
+"better-fs@npm:^11.0.4":
+  version: 11.0.4
+  resolution: "better-fs@npm:11.0.4"
+  dependencies:
+    "@types/graceful-fs": ^4.1.3
+    graceful-fs: ^4.2.3
+  checksum: 21b649516bbf1775f09c399aebf5d2ee507891392a8a6b2773e6d329951ef3ad6b18170f0c35b43adb4e26abfb77ac16265be1ab84058a17e273d3d09f5fbb2c
   languageName: node
   linkType: hard
 
@@ -13493,7 +13504,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
+"graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.3, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
   version: 4.2.10
   resolution: "graceful-fs@npm:4.2.10"
   checksum: 4223a833e38e1d0d2aea630c2433cfb94ddc07dfc11d511dbd6be1d16688c5be848acc31f9a5d0d0ddbfb56d2ee5a6ae0278aceeb0ca6a13f27e06b9956fb952
@@ -17051,6 +17062,15 @@ __metadata:
   version: 1.0.4
   resolution: "markdown-escapes@npm:1.0.4"
   checksum: cf3f2231191d9df61cd1d02a50a55a5c89ab9cebfe75572950f4844b93a41d561eed2d82e42732d55f2c55fa0d426b51df3a7f378b4068ae1e2923bb758a9cc8
+  languageName: node
+  linkType: hard
+
+"marked@npm:^4.0.17":
+  version: 4.0.17
+  resolution: "marked@npm:4.0.17"
+  bin:
+    marked: bin/marked.js
+  checksum: e923db2223ab7045c3f6422a31c3dcb97a9dae4a08b8dd2b1710563c4d4687703d5826d2b07382f684c7f2ebe677dfd4470cd683c9f3a7f703102531f3a0812f
   languageName: node
   linkType: hard
 
@@ -24077,6 +24097,7 @@ __metadata:
     "@redwoodjs/router": 2.0.0
     "@redwoodjs/web": 2.0.0
     autoprefixer: ^10.4.7
+    marked: ^4.0.17
     postcss: ^8.4.14
     postcss-loader: ^7.0.0
     prop-types: 15.8.1

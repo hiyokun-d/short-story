@@ -1,0 +1,38 @@
+#story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(196, 253, 252);
+}
+
+#story {
+  background-color: rgb(191, 191, 191);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 1000px;
+}
+
+#story h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  animation: zoom-out 0.5s ease-in-out forwards;
+  text-align: center;
+  color: rgb(251, 251, 251);
+  text-decoration: underline;
+}
+
+#story #story-text {
+  line-height: 30px;
+}
+
+#story #story-writer {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  animation: type-text 1s ease-in-out forwards;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
