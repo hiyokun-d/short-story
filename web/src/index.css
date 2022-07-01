@@ -29,6 +29,10 @@ body {
   background-color: rgb(120, 120, 120);
   color: #fff;
   animation: change-background-color 1s ease-in-out forwards;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @keyframes change-background-color {
@@ -83,7 +87,7 @@ body {
     opacity: 1;
   }
 }
-/* 
+/*
 #homePage > a {
   font-size: 1.25rem;
   font-weight: 700;

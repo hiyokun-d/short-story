@@ -1,4 +1,3 @@
-
 import { MetaTags } from '@redwoodjs/web'
 
 import StoryCell from 'src/components/StoryCell'

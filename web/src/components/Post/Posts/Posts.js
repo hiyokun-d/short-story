@@ -69,7 +69,7 @@ const PostsList = ({ posts }) => {
   })
 
   const onDeleteClick = (id) => {
-    if (confirm('Are you sure you want to delete post ' + id + '?')) {
+    if (confirm('lu beneran mau ngehapus post dengan id ' + id + '?')) {
       deletePost({ variables: { id } })
     }
   }

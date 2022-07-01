@@ -20,7 +20,15 @@ const HomePage = () => {
         <br></br>
         <footer>
           <p>
-            <strong>hiyo</strong>
+            <strong>
+              <a
+                href="https://github.com/hiyokun-d"
+                rel="noreferrer"
+                target="_blank"
+              >
+                hiyo
+              </a>
+            </strong>
           </p>
         </footer>
       </div>

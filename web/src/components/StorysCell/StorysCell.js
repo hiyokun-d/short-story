@@ -22,18 +22,26 @@ export const Failure = ({ error }) => (
 
 export const Success = ({ storys }) => {
   return (
-    <ul>
-      {storys.map((item) => {
-        return (
-          <li key={item.id} id="storys-list">
-            <h2 id="storys-title">
-              <Link to={routes.story({ id: item.id })}>
-                {item.title} by {item.writer}
-              </Link>
-            </h2>
-          </li>
-        )
-      })}
-    </ul>
+    <div>
+      <ul>
+        {storys.map((item) => {
+          return (
+            <li key={item.id} id="storys-list">
+              <h2 id="storys-title">
+                <Link to={routes.story({ id: item.id })}>
+                  {item.title} by {item.writer}
+                </Link>
+                <Link
+                  to={routes.editPost({ id: item.id })}
+                  className="rw-button rw-button-green"
+                >
+                  edit
+                </Link>
+              </h2>
+            </li>
+          )
+        })}
+      </ul>
+    </div>
   )
 }

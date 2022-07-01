@@ -1,3 +1,4 @@
+import { Link, routes } from '@redwoodjs/router'
 export const QUERY = gql`
   query FindStoryQuery($id: Int!) {
     story: post(id: $id) {
@@ -26,6 +27,12 @@ export const Success = ({ story }) => {
         <p id="story-text">{story.story}</p>
         <p id="story-writer">{story.writer}</p>
         <p id="story-createdAt">{story.createdAt}</p>
+        <Link
+          to={routes.editPost({ id: story.id })}
+          className="rw-button rw-button-green"
+        >
+          edit
+        </Link>
       </div>
     </div>
   )
